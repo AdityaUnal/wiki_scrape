@@ -5,7 +5,7 @@
 ## Assumptions
 
 - The DOM elements for the table and each row would be known.
-- - If XPath changes, the table can alternatively be located by its `<caption>` text (*"List of FIFA World Cup finals"*) together with a header check (e.g., columns "Year", "Winners", "Score", "Runners-up").  
+- If XPath changes, the table can alternatively be located by its `<caption>` text (*"List of FIFA World Cup finals"*) together with a header check (e.g., columns "Year", "Winners", "Score", "Runners-up").  
 - I have sent all 10 at once to the google sheet as the payload size is less here and google APIs allow upto 2 MB of data in one payload. This would make more sense in case the rows increase as google allows 300 writes per minute, so batching would scale better.
 
 ## Getting Started
