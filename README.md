@@ -22,4 +22,4 @@ pip install -r requirements.txt
 python run automate.py
 ```
 ## Steps for automation
-- ![alt text](https://github.com/AdityaUnal/wiki-scrape/blob/main/flow-chart.png?raw=true)
+- ![alt text](https://github.com/AdityaUnal/wiki_scrape/blob/main/flow-chart.png)
